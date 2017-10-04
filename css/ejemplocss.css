@@ -1,0 +1,41 @@
+/*
+header h2, h3{
+	color: green;
+}
+
+p{
+	color: red;
+}
+
+p#azul{
+	color: blue;
+}
+
+.prueba{
+	color: gray;
+}
+
+.grande{
+	font-size: 20px;
+}*/
+
+/*hermanos*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	font-family: 'Roboto',sans-serif;´+
+}
+p+p{
+	font-weight: bolder;
+}
+
+/*hijos*/
+div>p{
+	color: cyan;
+}
+
+/*hermanos menores*/
+p ~ p{
+	color: green;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	font-family: 'Roboto',sans-serif;
+}
+
+body{
+	font-size: .9em;
+	margin: 1%;
+	position: relative;
+	border: 2px solid red;
+	border-radius: 15px;
+}
+
+@Media screen and (min-width: 480px) {
+	body{
+		background-color: red;
+	}
+}
+
+@Media screen and (min-width: 600px) {
+	body{
+		background-color: orange;
+	}
+}
+
+@Media screen and (min-width: 767px) {
+	body{
+		background-color: yellow;
+	}
+}
+
+@Media screen and (min-width: 950px) {
+	body{
+		background-color: green;
+	}
+}
+
+header{
+	padding: 1%;
+	margin-bottom: 2%;
+	border: 2px solid cyan;
+	border-radius: 15px;
+}
+
+nav{
+	margin:0px;
+	border: 2px solid green;
+  border-radius: 15px;
+}
+
+section{
+	padding: 1%;
+	border: 2px solid orange;
+  border-radius: 15px;
+}
+
+article{
+	margin: 2%;
+	padding: 1%;
+	border: 2px solid blue;
+	border-radius: 15px;
+}
+
+aside{
+	margin-top: 1%;
+	padding: 2%;
+	position: relative;
+	border: 2px solid purple;
+  border-radius: 15px;
+}
+
+
+footer{
+	margin-top: 1%;
+	padding-right: 2%;
+	text-align: right;
+	border: 2px solid cyan;
+  border-radius: 15px;
+}
+
+footer p{
+	font-size: .8em;
+	font-weight: bolder;
+}
